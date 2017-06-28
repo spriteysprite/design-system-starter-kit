@@ -10,10 +10,61 @@
 
 <!-- PAGE HEADER: https://www.lightningdesignsystem.com/components/page-headers/?variant=record-home -->
   <!-- INSERT CODE HERE -->
+  <div class="slds-page-header">
+  <div class="slds-media">
+    <div class="slds-media__figure">
+      <span class="slds-icon_container slds-icon-standard-opportunity" title="Description of icon when needed">
+        <svg class="slds-icon" aria-hidden="true">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#opportunity"></use>
+        </svg>
+      </span>
+    </div>
+    <div class="slds-media__body">
+      <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Rohde Corp - 80,000 Widgets">Maz Corp - 80,000 Widgets</h1>
+      <p class="slds-text-body_small slds-line-height_reset">Mark Jaeckal • Unlimited Customer • 11/13/15</p>
+    </div>
+  </div>
+</div>
 <!-- /PAGE HEADER -->
 
 <!-- PROGRESS INDICATOR: https://www.lightningdesignsystem.com/components/progress-indicator/?modifiers=.slds-is-active&variant=base -->
   <!-- INSERT CODE HERE -->
+  <div class="demo-only" style="padding: 1rem;">
+  <div class="slds-progress">
+    <ol class="slds-progress__list">
+      <li class="slds-progress__item slds-is-active">
+        <button class="slds-button slds-progress__marker">
+          <span class="slds-assistive-text">Step 1 - Active</span>
+        </button>
+      </li>
+      <li class="slds-progress__item">
+        <button class="slds-button slds-progress__marker">
+          <span class="slds-assistive-text">Step 2 </span>
+        </button>
+      </li>
+      <li class="slds-progress__item">
+        <button class="slds-button slds-progress__marker">
+          <span class="slds-assistive-text">Step 3 </span>
+        </button>
+      </li>
+      <li class="slds-progress__item">
+        <button class="slds-button slds-progress__marker">
+          <span class="slds-assistive-text">Step 4 </span>
+        </button>
+      </li>
+      <li class="slds-progress__item">
+        <button class="slds-button slds-progress__marker">
+          <span class="slds-assistive-text">Step 5 </span>
+        </button>
+      </li>
+    </ol>
+    <div class="slds-progress-bar slds-progress-bar_x-small" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" role="progressbar">
+      <span class="slds-progress-bar__value" style="width: 0%;">
+        <span class="slds-assistive-text">Progress: 0%</span>
+      </span>
+    </div>
+  </div>
+</div>
 <!-- /PROGRESS INDICATOR -->
 
 <!-- COLUMNS - already populated for you: https://www.lightningdesignsystem.com/utilities/grid/?example=regions-with-sizing&variant=grid -->
@@ -25,6 +76,18 @@
     <!-- TABS: https://www.lightningdesignsystem.com/components/tabs/?modifiers=.slds-is-active&variant=base -->
     <!-- ACTIVITY TIMELINE - replace "Item One Content": https://www.lightningdesignsystem.com/components/activity-timeline/?variant=base -->
       <!-- INSERT CODE HERE -->
+      <div class="demo-only">
+  <div class="slds-tabs_default">
+    <ul class="slds-tabs_default__nav" role="tablist">
+      <li class="slds-tabs_default__item slds-is-active" title="Item One" role="presentation"><a class="slds-tabs_default__link" href="javascript:void(0);" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-1__item">Item One</a></li>
+      <li class="slds-tabs_default__item" title="Item Two" role="presentation"><a class="slds-tabs_default__link" href="javascript:void(0);" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2" id="tab-default-2__item">Item Two</a></li>
+      <li class="slds-tabs_default__item" title="Item Three" role="presentation"><a class="slds-tabs_default__link" href="javascript:void(0);" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-3" id="tab-default-3__item">Item Three</a></li>
+    </ul>
+    <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">Item One Content</div>
+    <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+    <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+  </div>
+</div>
     <!-- /TABS -->
 
   </div>
